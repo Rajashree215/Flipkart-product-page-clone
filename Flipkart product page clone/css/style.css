@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar div{
     display:inline;
 }
@@ -15,6 +18,9 @@
 {
     margin-left: 12%;
     margin-top: 13px;
+    border-radius: 4px;
+    position: relative;
+    top: 4px;
 }
 input
 { 
@@ -30,15 +36,20 @@ input
     position: relative;
     margin-left: 20px;
     background-color: #2874f0;
-    top: -15px;
+    top: -9px;
+    left: -15px;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12.5px;
 }
 .srch
 {
     height: 32px;
     width: 35px;
     position: relative;
-    left: -15px;
-    top: -4px;
+    left: -29px;
+    top: 2px;
     box-shadow: 0px 0px 10px #043d98bc;
 }
 button
@@ -64,20 +75,48 @@ input:hover{
     position: relative;
     height: 30px;
     width: 121px;
-    top: -15px;
-    left: -18px;
+    top: -9px;
+    left: -33px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px rgba(68, 67, 67, 0.641);
 }
 ul
 {
     list-style: none;
+    position:relative;
+    top: -85px;
 }
 li
 {
-    display: inline-block;
+    display: inline;
     padding: 1rem;
-    float: right;
+    float:right;
+    color: #fff;
+    font-size: small;
 }
 a
 {
     text-decoration: none;
+    color: #fff;
+}
+select{
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.product
+{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 7%;
+    box-shadow: 0px 0px 10px rgba(44, 44, 44, 0.397);
+    border-radius: 3px;
+}
+.contents
+{
+    position: absolute;
+    top: 100px;
+    left: 450px;
 }
