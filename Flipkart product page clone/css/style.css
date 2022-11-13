@@ -192,3 +192,31 @@ span
 {
     font-weight: bold;
 }
+#del
+{
+    position: relative;
+    left: 30px;
+}
+.li{
+    font-size: small;
+    position: relative;
+    left: 111px;
+    top: -37px;
+    font-weight: 400;
+}
+#desc
+{
+    font-size: small;
+    position: relative;
+    left: 111px;
+    top: -37px;
+    font-weight: 400;
+}
+h5
+{
+    color: #878787;
+}
+.spec span
+{
+    color: #878787;
+}
